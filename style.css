@@ -319,6 +319,7 @@ section {
 .experience-details-container {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   flex-direction: column;
 }
 
@@ -326,7 +327,7 @@ section {
   display: flex;
   text-align: initial;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction:row;
   gap: 2.5rem;
   justify-content:space-around;
 }
@@ -334,7 +335,7 @@ section {
 article {
   display: flex;
   width: 10rem;
-  justify-content: space-around;
+  justify-content:flex-start;
   gap: 0.5rem;
 }
 
